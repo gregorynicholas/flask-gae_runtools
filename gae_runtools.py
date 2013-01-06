@@ -2,10 +2,10 @@
   gae_runtools
   ~~~~~~~~~~~~~~~~~~~
 
-  Flask extension module for working with the App Engine sdk.
+  Flask extension for working with the App Engine sdk.
 
   :copyright: (c) 2012 by gregorynicholas.
-  :license: BSD, see LICENSE for more details.
+  :license: MIT, see LICENSE for more details.
 """
 import logging
 

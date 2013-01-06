@@ -1,44 +1,44 @@
+#!/usr/bin/env python
 """
-Flask App Engine Runtools
+flask-gae_runtools
 -----------------------
 
-Flask extension module for working with the App Engine sdk.
+Flask extension for working with the App Engine sdk.
 
 Links
 `````
 
-* `documentation <http://packages.python.org/Flask%20App%20Engine%20Runtools>`_
+* `documentation <http://packages.python.org/flask-gae_runtools>`_
 * `development version
-  <http://github.com/gregorynicholas/flask-gae_runtools/zipball/master#egg=Flask%20App%20Engine%20Runtools-dev>`_
+  <http://github.com/gregorynicholas/flask-gae_runtools/zipball/master#egg=flask_gae_runtools-dev>`_
 
 """
 from setuptools import setup
 
-
 setup(
-  name='Flask App Engine Runtools',
+  name='flask-gae_runtools',
   version='1.0.0',
   url='http://github.com/gregorynicholas/flask-gae_runtools',
-  license='BSD',
+  license='MIT',
   author='gregorynicholas',
-  description='Flask extension module for working with the App Engine sdk.',
+  description='Flask extension for working with the App Engine sdk.',
   long_description=__doc__,
   py_modules=['gae_runtools'],
   # packages=['flaskext'],
   # namespace_packages=['flaskext'],
-  include_package_data=True,
+  include_package_data=False,
   data_files=[],
   zip_safe=False,
   platforms='any',
   install_requires=[
-    'Flask'
+    'flask'
   ],
   test_suite='gae_runtools_tests',
   classifiers=[
     'Development Status :: 4 - Beta',
     'Environment :: Web Environment',
     'Intended Audience :: Developers',
-    'License :: OSI Approved :: BSD License',
+    'License :: OSI Approved :: MIT License',
     'Operating System :: OS Independent',
     'Programming Language :: Python',
     'Topic :: Internet :: WWW/HTTP :: Dynamic Content',
